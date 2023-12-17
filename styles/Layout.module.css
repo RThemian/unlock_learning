@@ -1,0 +1,15 @@
+/* Layout.module.css */
+.layout {
+    background-color: #f0f0f0; /* light gray */
+  }
+  
+  .sidebar {
+    background-color: #d0d0d0; /* gray */
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .main {
+    background-color: #ffffff; /* white */
+    font-family: 'Arial', sans-serif;
+  }
+  
