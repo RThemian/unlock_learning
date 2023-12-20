@@ -1,12 +1,20 @@
-import React from 'react';
+// import { Card } from '@/app/ui/dashboard/cards';
 
-const Layout: React.FC = ({ children }) => {
+// import { fetchCardData } from '@/app/lib/data';
+import { Suspense } from 'react';
+// import { RevenueChartSkeleton, LatestInvoicesSkeleton, CardsSkeleton } from '@/app/ui/skeletons';
+ 
+
+
+export default async function Page() {
+  // const latestInvoices = await fetchLatestInvoices(); removed fetchLatestInvoices
+
+ 
   return (
-    <div>
-      <h1>Math Problem Page</h1>
-      {children}
-    </div>
+    <main>
+      <h1 className= 'mb-4 text-xl md:text-2xl'>
+        Game Page
+      </h1>
+     </main>
   );
-};
-
-export default Layout;
+}

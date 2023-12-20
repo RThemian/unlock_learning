@@ -25,7 +25,7 @@ export const metadata: Metadata = {
 
 
 
-export default function Layout({ children, }: { children: React.ReactNode
+export default function RootLayout({ children, }: { children: React.ReactNode
  }) {
   return (
     <div className="flex h-screen bg-yellow-500">

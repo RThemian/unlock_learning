@@ -1,29 +1,20 @@
-import React from 'react';
-import Layout from './layout';
+// import { Card } from '@/app/ui/dashboard/cards';
 
-const HomePage: React.FC = () => {
-  const mathProblems = [
-    { question: '2 + 2', answer: 4 },
-    { question: '5 - 3', answer: 2 },
-    { question: '4 * 6', answer: 24 },
-    { question: '10 / 2', answer: 5 },
-  ];
+// import { fetchCardData } from '@/app/lib/data';
+import { Suspense } from 'react';
+// import { RevenueChartSkeleton, LatestInvoicesSkeleton, CardsSkeleton } from '@/app/ui/skeletons';
+ 
 
+
+export default async function Page() {
+  // const latestInvoices = await fetchLatestInvoices(); removed fetchLatestInvoices
+
+ 
   return (
-    <Layout>
-      <div>
-        <h1>Welcome to the Math Game!</h1>
-        <h2>Can you solve these math problems?</h2>
-        {mathProblems.map((problem, index) => (
-          <div key={index}>
-            <p>{problem.question}</p>
-            <input type="text" placeholder="Your answer" />
-          </div>
-        ))}
-        <button>Submit</button>
-      </div>
-    </Layout>
+    <main>
+      <h1 className= 'mb-4 text-xl md:text-2xl'>
+        Game Page
+      </h1>
+     </main>
   );
-};
-
-export default HomePage;
+}
