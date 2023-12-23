@@ -6,13 +6,13 @@ import { Suspense } from 'react';
  
 
 
-export default async function Page() {
+export default async function Layout() {
   // const latestInvoices = await fetchLatestInvoices(); removed fetchLatestInvoices
 
  
   return (
     <main>
-      <h1 className= 'mb-4 text-xl md:text-2xl'>
+      <h1 className= "">
         Game Page
       </h1>
      </main>
